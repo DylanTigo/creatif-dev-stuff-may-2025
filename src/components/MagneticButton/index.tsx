@@ -17,7 +17,7 @@ export const MagneticButton = ( { children } : { children: React.ReactNode } ) =
       xTo(x)
       yTo(y)
     }
-    const onMouseLeave = (e: MouseEvent) => {
+    const onMouseLeave = () => {
       xTo(0)
       yTo(0)
     }
